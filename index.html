@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
       rel="stylesheet"
@@ -13,12 +17,11 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
     <title>Natours | Exciting tours for adventurous people</title>
   </head>
   <body>
-    <div class="navigation">
+    <!-- <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
 
       <label for="navi-toggle" class="navigation__button">
@@ -56,11 +59,45 @@
           </li>
         </ul>
       </nav>
-    </div>
+    </div> -->
 
     <header class="header">
-      <div class="header__logo-box">
+      <!-- <div class="header__logo-box">
         <img src="img/logo-white.png" alt="Logo" class="header__logo" />
+      </div> -->
+
+      <div class="nav-header">
+        <a href="#">
+          <img
+            src="/img/logo-white.png"
+            alt="Natour logo"
+            class="header__logo"
+          />
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a class="main-nav-link" href="#section-about">About Natours</a>
+            </li>
+            <li>
+              <a class="main-nav-link" href="#section-features">Your Benfits</a>
+            </li>
+            <li>
+              <a class="main-nav-link" href="#section-tours">Popular Tours</a>
+            </li>
+            <li>
+              <a class="main-nav-link" href="#section-stories">Stories</a>
+            </li>
+            <li>
+              <a class="main-nav-link nav-cta" href="#section-book">Book Now</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
       </div>
 
       <div class="header__text-box">
@@ -532,5 +569,15 @@
         </div>
       </div>
     </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
