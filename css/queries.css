@@ -48,6 +48,10 @@
     top: 3.5rem;
     right: 3.5rem;
   }
+
+  .book__form {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
@@ -216,19 +220,19 @@
 
   /* FORM SECTION */
 
-  .form__input {
+  /* .form__input {
     width: 100%;
   }
 
   .form__input {
     width: 100%;
     margin-bottom: 2rem;
-  }
+  } */
 
-  .form__radio-group {
+  /* .form__radio-group {
     width: 100%;
     margin-bottom: 2rem;
-  }
+  } */
 
   /* STORY SECTION */
   .story {
@@ -257,7 +261,7 @@
   }
 
   .book__form {
-    width: 100%;
+    width: 100% !important;
   }
 
   /* FOOTER SECTION */
